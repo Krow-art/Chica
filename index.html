@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chica's Party Time</title>
+</head>
+<style>
+	div {
+		display: flex;
+		justify-self: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.button{
+		font-family: 'Brushstroke', 'Chalkduster', fantasy;
+		display: flex;
+		justify-self: center;
+		align-items: center;
+		justify-content: center;
+	
+
+		position: fixed;
+		padding: 50px 90px;
+		background: #eff6a6;
+		border-radius: 6px;
+		color: #f7c3ce;
+		border: none;
+		font-size: 30px;
+		font-weight: 400;
+		cursor: pointer;
+		transition: transform 0.2s ease;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	
+
+		left: 855px;
+			top:500px;
+
+
+	}
+	
+	.button:active {
+		transform: scale(0.96);
+	}
+	.button::before,
+	.button::after{
+	content: "" ;	
+	position: absolute;
+	transform: translate(-50%);
+	
+}
+.button::before{
+	top: -70%;
+
+}
+	.button::after{
+		bottom: -70%;
+	}
+	}
+</style>
+<body style=" background-image: linear-gradient(to bottom, rgba(235, 137, 186), rgba(243, 183, 212)); background-repeat: no-repeat; background-attachment: fixed;">
+<a href="Page2.html">
+<button class="button">
+	<center>
+		
+	ENTER
+
+</center>
+</button>
+</a>
+ <div>
+ 
+<img src="chicaLogo.png" width="600" height="600">
+
+</div>
+
+
+</body>
+</html>
