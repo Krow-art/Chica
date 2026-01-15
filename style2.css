@@ -1,0 +1,32 @@
+body{
+	min-height: 1100px;
+	border: 30px solid #eff6a6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.box{
+	
+	border-radius: 25px;
+	height: 800px;
+	width: 850px;
+	background-color:#eff6a6;
+	font-size: 20pt;
+	font-family: monospace;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.button:{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
