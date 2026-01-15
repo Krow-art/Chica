@@ -39,4 +39,53 @@ body{
 	justify-content: center;
 	align-items: flex-end;
 	flex-wrap: wrap;
+
 }
+.box2{
+	
+	border-radius: 25px;
+	height: 250px;
+	width: 250px;
+	background-color:#eff6a6;
+	font-size: 20pt;
+
+	
+	font-family: monospace;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+cursor: pointer;
+		transition: transform 0.2s ease;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	
+
+		left: 855px;
+			top:500px;
+
+
+	}
+	
+	.box2:active {
+		transform: scale(0.96);
+	}
+	.button::before,
+	.button::after{
+	content: "" ;	
+	position: absolute;
+	transform: translate(-50%);
+	
+}
+.box2::before{
+	top: -70%;
+
+}
+	.box2::after{
+		bottom: -70%;
+	}
+	
+
+	
